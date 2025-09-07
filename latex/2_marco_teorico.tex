@@ -1,10 +1,13 @@
-\section{Metodología}
-\begin{enumerate}
-    \item Revisión de seguridad (instalación sin tensión).
-    \item Inspección del cableado del TCP y comparación con el plano eléctrico entregado.
-    \item Reconexión de los cables faltantes en el tablero.
-    \item Energización y prueba operativa del arranque estrella-triángulo.
-    \item Observación de la actuación de los contactores.
-    \item Medición de corriente y potencia con pinza amperimétrica y Power Energy Logger.
-      \item Corrección y verificación del diagrama eléctrico en CadeSimu 
-\end{enumerate}
+\section{Marco Teórico}
+\begin{itemize}
+    \item \textbf{Motor de inducción trifásico}: convierte energía eléctrica en energía mecánica. Puede conectarse en estrella (380 V) o en triángulo (220 V).
+    \item \textbf{Transformador trifásico}: adapta la tensión de red (400 V) a la tensión nominal del motor (230 V).
+    \item \textbf{Arranque estrella-triángulo}: método que reduce la corriente de arranque y luego conmuta a triángulo para el régimen nominal.
+    \item \textbf{Tablero de comando y protección (TCP)}: contiene interruptores, guardamotores, contactores y protección diferencial para maniobrar y proteger al motor.
+    \item \textbf{Circuitos}: 
+    \begin{itemize}
+        \item Comando: señales de baja tensión (24 V CC).
+        \item Potencia: alimentación del motor (230 V CA trifásica).
+    \end{itemize}
+    \item \textbf{Seguridad}: se trabajó inicialmente sin tensión, evitando contacto con niveles peligrosos.
+\end{itemize}
