@@ -1,1 +1,10 @@
 \section{Conclusiones}
+Comprobamos en banco que el tablero y el cableado responden a lo pedido: mando a 24~Vcc, potencia a 230~V trifásico (trafo 400/230~V) y secuencia de arranque estrella-triángulo con enclavamientos efectivos.
+
+La puesta en marcha se realizó sin disparos ni golpes mecánicos; el temporizado elegido dio margen para que el motor tomara velocidad antes de conmutar.
+
+El relevamiento y el ruteo final quedaron documentados en el diagrama ``conforme a obra'', lo que facilitó la verificación y el registro. Se identificaron con claridad los elementos de maniobra (K1, K2, K3 y el temporizador) y su correspondencia con el esquema.
+
+En la práctica, el arranque en estrella redujo la exigencia eléctrica respecto del régimen en triángulo, en línea con la relación esperable $I_Y \approx I_\Delta/\sqrt{3}$. Las observaciones de potencia y factor de potencia fueron coherentes con la condición de prueba (sin carga o con carga ligera) y con el comportamiento típico de este método de arranque.
+
+Como trabajo futuro, proponemos ajustar finamente $t_{Y\to\Delta}$ según la aplicación para suavizar aún más el transitorio, y registrar $I(t)$ durante el arranque para cuantificar el pico y comparar con el valor teórico. También conviene repetir las mediciones siempre sobre la misma fase en estrella y en triángulo para una comparación directa.
