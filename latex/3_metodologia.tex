@@ -1,10 +1,38 @@
 \section{Metodología}
-\begin{enumerate}
-    \item Revisión de seguridad (instalación sin tensión).
-    \item Inspección del cableado del TCP y comparación con el plano eléctrico entregado.
-    \item Reconexión de los cables faltantes en el tablero.
-    \item Energización y prueba operativa del arranque estrella-triángulo.
-    \item Observación de la actuación de los contactores.
-    \item Medición de corriente y potencia con pinza amperimétrica y Power Energy Logger.
-    \item Corrección y verificación del diagrama eléctrico en CadeSimu 
-\end{enumerate}
+\subsection{Revisión de seguridad}
+
+Antes de comenzar con cualquier actividad práctica se efectuó una verificación de las condiciones de seguridad, teniendo en cuenta que en este laboratorio se trabaja con tensiones eléctricas de diferentes niveles. Se identificó que el circuito de comando está alimentado por una fuente de 24 V en corriente continua, considerado como un nivel de tensión segura, ya que no representa riesgo de daño físico en caso de contacto accidental. En cambio, el circuito de potencia funciona con 230 V en corriente alterna trifásica, lo que constituye un nivel de tensión no seguro, capaz de provocar descargas y accidentes graves si se produjera un contacto directo.  
+
+La principal medida de seguridad consistió en impedir cualquier contacto accidental con el circuito de potencia. Por esta razón, las primeras tareas de inspección y conexionado del tablero se realizaron con los equipos totalmente desconectados de la red trifásica. Sólo una vez que el docente autorizó, y luego de comprobarse que el cableado se encontraba en condiciones correctas, se procedió a energizar la instalación de forma controlada.  
+
+También se revisó la presencia y el correcto funcionamiento de los dispositivos de protección integrados en el Tablero de Comando y Protección, como el interruptor automático, el guardamotor y el interruptor diferencial tetrapolar. Estos elementos resultan esenciales para garantizar la desconexión inmediata en situaciones de sobrecarga, cortocircuito o derivación a tierra, preservando así la seguridad de los estudiantes y la integridad de los equipos.
+
+\subsection{Inspección del cableado}
+
+Con la instalación completamente desenergizada se procedió a realizar la inspección detallada del tablero de comando. El objetivo de esta etapa fue verificar el estado general del cableado, comprobar la correspondencia con el diagrama eléctrico suministrado y registrar la información necesaria para completar el plano de trabajo.  
+
+Durante la revisión se prestó especial atención a la identificación de los conductores, la correcta fijación en bornes y regletas, y la continuidad de las conexiones en los circuitos de comando. Se constató además la presencia de las protecciones asociadas y se compararon los datos observados con la documentación proporcionada, lo que permitió reconocer qué partes del conexionado estaban faltantes, para luego proceder a volver a conectarlas.
+
+\subsection{Energización y prueba operativa}
+
+Una vez verificado el cableado y confirmada la correcta conexión de los conductores se procedió a energizar el tablero de manera controlada. La activación se realizó con la supervisión del docente, siguiendo una secuencia ordenada de habilitación de los interruptores principales y de protección, con el fin de evitar corrientes transitorias o maniobras indebidas.  
+
+Al aplicarse la tensión trifásica de 230 V al Tablero de Comando y Protección, se encendieron los indicadores luminosos que confirmaron la disponibilidad del sistema para la puesta en marcha. A partir de este momento se efectuaron las primeras pruebas de operación del motor mediante las botoneras de arranque y parada, verificando que las órdenes de comando eran transmitidas correctamente y que no se presentaban fallos eléctricos en el proceso.  
+
+Durante esta etapa se corroboró además el funcionamiento adecuado de los dispositivos de protección, asegurando que las condiciones de seguridad se mantuvieran en todo momento y que el motor respondiera de acuerdo a la secuencia prevista para su arranque y detención.
+
+\subsection{Observación de la actuación}
+
+Durante la operación del sistema se prestó especial atención a la secuencia de actuación de los elementos de mando y protección. Se observó el comportamiento de los contactores en el arranque y la conmutación prevista para el motor, así como la respuesta de las botoneras de encendido y apagado frente a cada orden de comando.  
+
+El seguimiento de los indicadores luminosos permitió confirmar el estado de los distintos circuitos en tiempo real, verificando que las señales visuales coincidieran con la condición esperada del motor y del tablero. Esta observación fue fundamental para constatar que el esquema de arranque respondiera de acuerdo con el diseño, sin interrupciones ni fallos de sincronización.  
+
+De esta manera, la supervisión directa de la actuación de los componentes no solo confirmó el correcto conexionado realizado en etapas anteriores, sino que también permitió adquirir una comprensión práctica sobre la lógica de control implementada en el sistema de arranque y protección del motor.
+
+\subsection{Medición de corriente}
+
+Con el motor en funcionamiento estable se procedió a la medición de las corrientes eléctricas en cada fase del circuito de potencia. Para esta tarea se utilizó una pinza amperimétrica, que permitió obtener valores instantáneos de corriente sin necesidad de interrumpir el circuito, y un analizador de energía del tipo Power Energy Logger, que complementó la información al registrar también la potencia eléctrica entregada al motor.  
+
+Las mediciones se realizaron en condiciones de régimen permanente, luego del arranque, para evitar que los picos transitorios propios de la puesta en marcha alteraran los resultados. Los valores obtenidos fueron registrados cuidadosamente en una planilla de trabajo en formato Excel, destinada a su posterior inclusión en el informe final.  
+
+Estos registros permitieron evaluar el desempeño del motor bajo las condiciones de carga establecidas y verificar que los consumos eléctricos se mantuvieran dentro de los parámetros nominales indicados en la placa del equipo. Además, los datos recopilados servirán de base para la elaboración de conclusiones acerca de la eficiencia del sistema y del correcto dimensionamiento de los dispositivos de protección.
